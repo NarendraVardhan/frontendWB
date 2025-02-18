@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: green;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Feedback Form</h2>
+        <form>
+            <label>Name (Optional):</label>
+            <input type="text">
+            
+            <label>Email (Optional):</label>
+            <input type="email">
+            
+            <label>Phone (Optional):</label>
+            <input type="tel">
+            
+            <label>Rating:</label>
+            <select>
+                <option>-- Select Rating --</option>
+                <option>1 - Poor</option>
+                <option>2 - Fair</option>
+                <option>3 - Good</option>
+                <option>4 - Very Good</option>
+                <option>5 - Excellent</option>
+            </select>
+            
+            <label>Any Questions regarding product or service:</label>
+            <textarea></textarea>
+            
+            <label>Additional Comments (Optional):</label>
+            <textarea></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
